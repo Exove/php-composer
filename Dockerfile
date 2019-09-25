@@ -1,4 +1,4 @@
-FROM xoxoxo/php-container:7.2-xdebug-1.1
+FROM xoxoxo/php-container:7.2-1.1
 
 # Composer must be able to patch packages, and clone git repositories.
 RUN apk --no-cache add 'patch=~2.7' 'git=~2.20'
