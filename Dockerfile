@@ -8,3 +8,5 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
     && php composer-setup.php --version=1.9.1 --install-dir=/usr/local/bin --filename=composer \
     && php -r "unlink('composer-setup.php');" \
     && echo "export PATH=~/.composer/vendor/bin:\$PATH" >> ~/.bash_profile \
+
+RUN php -v
