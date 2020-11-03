@@ -2,7 +2,7 @@
 
 This is PHP container with Composer installed, and the dependencies it needs (patch, git).
 
-Composer version is 1.9.1. PHP 7.3.12.
+Composer version is 1.9.1. PHP 7.3
 
       PHP 7.3.12 (cli) (built: Nov 22 2019 11:50:51) ( NTS )
       Copyright (c) 1997-2018 The PHP Group
